@@ -64,7 +64,7 @@ codeunit 123456799 InstallCodeunit
         SourceCode.Code := 'SEMINAR';
         if SourceCode.Insert then;
         SourceCodeSetup.get;
-        //SourceCodeSetup.CSD_Seminar := 'SEMINAR';
+        SourceCodeSetup.CSD_Seminar := 'SEMINAR';
         SourceCodeSetup.modify;
         exit(true);
     end;
@@ -79,8 +79,8 @@ codeunit 123456799 InstallCodeunit
         Resource.validate("Gen. Prod. Posting Group", 'MISC');
         Resource."Base Unit of Measure" := 'HOUR';
         Resource."Direct Unit Cost" := 100;
-        Resource."CSD_Quantity Per Day" := 8;
         Resource.Type := Resource.Type::Person;
+        Resource."CSD_Quantity Per Day" := 8;        
         if Resource.Insert then;
         Resource."No." := 'ROOM 01';
         Resource.Name := 'Room 01';

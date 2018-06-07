@@ -3,6 +3,8 @@ table 123456701 Seminar
 // Chapter 5 - Lab 3-2 & Lab 3-3 
 {
     Caption = 'Seminar';
+    LookupPageId="Seminar List";
+    DrillDownPageId="Seminar List";
 
     fields
     {

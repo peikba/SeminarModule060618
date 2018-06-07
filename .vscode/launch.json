@@ -8,8 +8,7 @@
             "server": "http://localhost",
             "serverInstance": "DynamicsNAV110",
             "authentication": "Windows",
-            "schemaUpdateMode": "Recreate",
-            "startupObjectId": 123456798
+            "schemaUpdateMode": "Synchronize"
         }
     ]
 }
