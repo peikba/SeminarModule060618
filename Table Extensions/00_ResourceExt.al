@@ -9,26 +9,26 @@ tableextension 123456700 CSD_ResourceExt extends Resource
     {
         modify("Profit %")
         {
-
+        
             trigger OnAfterValidate()
             begin
                 Rec.TestField("Unit Cost");
             end;
         }
-        field(123456701; "CSD_Resource Type"; Option)
+        field(123456701;"CSD_Resource Type";Option)
         {
             Caption = 'Resource Type';
-            OptionMembers = "Internal", "External";
+            OptionMembers = "Internal","External";
             OptionCaption = 'Internal,External';
         }
-        field(123456702; "CSD_Maximum Participants"; Integer)
+        field(123456702;"CSD_Maximum Participants";Integer)
         {
             Caption = 'Maximum Participants';
         }
-        field(123456703; "CSD_Quantity Per Day"; Integer)
+        field(123456703;"CSD_Quantity Per Day";Integer)
         {
             Caption = 'Quantity Per Day';
-        }
+        }        
     }
 }
 

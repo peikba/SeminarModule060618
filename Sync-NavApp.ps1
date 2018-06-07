@@ -6,6 +6,3 @@ Sync-NAVApp -ServerInstance DynamicsNAV110 -Path '.\D. E. Veloper_SD Seminar_1.0
 Sync-NAVTenant -ServerInstance DynamicsNAV110
 
 Uninstall-NAVApp -ServerInstance Privat_NavUser  -Name "Microsoft Pay Payments"
-
-
-

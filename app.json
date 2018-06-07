@@ -16,8 +16,8 @@
   "screenshots": [],
   "features": "TranslationFile",
   "target": "Internal",
-  "showMyCode": true,
   "platform": "11.0.0.0",
+  "showMyCode": false,
   "application": "11.0.0.0",
   "idRange": {
     "from": 123456700,
